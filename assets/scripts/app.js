@@ -134,7 +134,6 @@ const cancleModalHandler = () => {
 };
 const backdropHandler = () => {
   closeMovieModal();
-  cancleMovieModal();
 };
 
 startModalBtn.addEventListener("click", startModalHandler);
